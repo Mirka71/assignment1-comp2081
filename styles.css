@@ -59,11 +59,32 @@ a:hover{
 /* Accentuate branding by using statement font */
 .card.two h1{
     font-family: "Gruppo", 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
 }
 
 /* Lighten font weight */
 .card.one h2, .card.three h2{
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 300;
+    display: flex;
+    justify-content: center;
+}
+
+/* Ordering cards*/
+.cards{
+    display: flex;
+    gap: 4%;
+    max-width: 90%;
+    /* Set right and left margins to auto to center */
+    margin: 0 auto;
+}
+
+.card{
+    padding: 70px;
+}
+
+.card.two{
+    flex: 1.4;
 }
 
