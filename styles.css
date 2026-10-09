@@ -57,7 +57,7 @@ a:hover{
 /* CARDS */
 
 /* Accentuate branding by using statement font */
-.card.two h1{
+.card.two pre{
     font-family: "Gruppo", 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
@@ -99,6 +99,9 @@ a:hover{
     padding-right: 0;
 }
 
+.icon-cam{
+    padding-left: 60px;
+}
 
 
 
