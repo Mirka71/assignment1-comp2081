@@ -1,5 +1,55 @@
+
+body{
+    margin: 0;
+}
+
+/* LOGO */
 .logo {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Logo size */
+.bird {
+    height:200px;
+}
+
+/* Logo font */
+.focal {
+    font-family: "Gruppo", 'Times New Roman', Times, serif;
+}
+
+.wing {
+    font-family: "Gruppo", 'Times New Roman', Times, serif;
+}
+
+/* NAV BAR */
+header {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%;
+}
+
+nav a{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+   text-decoration: none; 
+   padding: 40px;
+   font-size: 1.1rem;
+   color: rgb(14, 14, 16);
+}
+
+/* Change colour when hovering */
+a:hover{
+    color: rgb(65, 194, 123);
+}
+
+/* HERO IMAGE */
+.hero-image-container{
+    width: 100%;
+}
+
+.hero-img{
+    width: 100%;
+    height: 600px;
 }
