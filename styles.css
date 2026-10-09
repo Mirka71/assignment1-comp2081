@@ -78,13 +78,27 @@ a:hover{
     max-width: 90%;
     /* Set right and left margins to auto to center */
     margin: 0 auto;
+
+    /* Add box shadow */
+    box-shadow: 0 3px 6px 0 rgba(131, 131, 131, 0.693);
+    transition: 0.2s;
+}
+
+/* increase box shadow to add dimension with hovering*/
+.cards:hover{
+    box-shadow: 0 6px 12px 0 rgba(131, 131, 131, 0.693);
 }
 
 .card{
     padding: 70px;
 }
 
+
 .card.two{
-    flex: 1.4;
+    padding-left: 0;
+    padding-right: 0;
 }
+
+
+
 
