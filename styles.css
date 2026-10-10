@@ -115,6 +115,7 @@ a:hover{
     padding-right: 5%;
     padding-left: 5%;
     padding-top: 5%;
+    padding-bottom: 12%;
 }
 
 /* IMAGINE Rectangle */
@@ -123,10 +124,11 @@ a:hover{
     grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 3;
-    background-color: rgb(162, 225, 207);
+    background-color: rgb(188, 245, 229);
     /* Add border radius for a softer look */
     border-radius: 8px;
     box-shadow: 0 3px 6px 0 rgba(1, 99, 86, 0.693);
+    padding: 10px 20px;
 }
 
 /* CREATE Rectangle */
@@ -135,10 +137,22 @@ a:hover{
     grid-row-end: 2;
     grid-column-start: 4;
     grid-column-end: 6;
-    background-color: rgb(213, 162, 225);
+    background-color: rgb(232, 183, 244);
     /* Border radius */
     border-radius: 8px;
     box-shadow: 0 3px 6px 0 rgba(162, 0, 165, 0.693);
+    padding: 10px 20px;
 }
 
+
+/* FOOTER */
+footer{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 -2px 6px 0 rgba(131, 131, 131, 0.693);
+}
+
+footer p{
+    font-family: "Gruppo", 'Times New Roman', Times, serif;
+}
 
