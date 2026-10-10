@@ -57,7 +57,7 @@ a:hover{
 /* CARDS */
 
 /* Accentuate branding by using statement font */
-.card.two pre{
+.card.two h1{
     font-family: "Gruppo", 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
@@ -142,6 +142,36 @@ a:hover{
     border-radius: 8px;
     box-shadow: 0 3px 6px 0 rgba(162, 0, 165, 0.693);
     padding: 10px 20px;
+}
+
+/* For RESPONSIVE LAYOUT - Rectangles */
+@media (max-width: 772px){
+    .rectangle-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+        gap: 3rem;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-top: 5%;
+        padding-bottom: 12%;
+    }
+
+    .rectangle.imagine{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    padding: 10px 20px;
+    }
+
+    .rectangle.create{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    padding: 10px 20px;
+    }
 }
 
 
