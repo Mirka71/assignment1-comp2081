@@ -104,4 +104,41 @@ a:hover{
 }
 
 
+/* RECTANGLES */
+
+/* styling with CSS GRID */
+.rectangle-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    gap: 3rem;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+/* IMAGINE Rectangle */
+.rectangle.imagine{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: rgb(162, 225, 207);
+    /* Add border radius for a softer look */
+    border-radius: 8px;
+    box-shadow: 0 3px 6px 0 rgba(1, 99, 86, 0.693);
+}
+
+/* CREATE Rectangle */
+.rectangle.create {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    background-color: rgb(213, 162, 225);
+    /* Border radius */
+    border-radius: 8px;
+    box-shadow: 0 3px 6px 0 rgba(162, 0, 165, 0.693);
+}
+
 
